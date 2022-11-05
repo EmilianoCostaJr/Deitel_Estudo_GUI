@@ -3,33 +3,19 @@
  * @author      : Emiliano Costa
  * @date        : 13 de out. de 2022
  * ___________________________________________________________________________________________________________________
- * Bibliografia : CONCEITOS DE COMPUTAÇÃO COM O ESSENCIAL DE C++
- * Capitulo     : 1. Introdução 
- * Exercício    : P1.2
- *
- * Bibliografia : Java como programar, Deitel, 10º edição
- * Capitulo     : 2 Introdução aos aplicativos Java                                                                       
- * Figura 2.7   : Seção 2.5 Outra aplicação: adicionando inteiros                                                                                
+ * Bibliografia :   Java como programar, Deitel, 10º edição
+ * Capitulo     :   3 Introdução a classes, objetos, métodos e strings                                                                       
+ * Figura 3.13  :   NameDialog.Java                                                                               
  * ___________________________________________________________________________________________________________________
- * Descrição    :
- * 1-  Primeiro uso da declaração import java.util.Scanner - API JAVA
- * 2 - Demonstra o Objeto input da classe Scanner    
- * ___________________________________________________________________________________________________________________
- * Modificações :
- * ___________________________________________________________________________________________________________________
+ * Descrição    :   Obtendo a entrada de usuário a partir de um diálogo.   
  * %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/ 
 
-/*::::::IMPORTS:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 package C3_Dialog;
-
 import javax.swing.JOptionPane;
-
-
 
 /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
 public class Insere {
 /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
-    
     
     public static void inicio(){
         String entrada = JOptionPane.showInputDialog("Qual seu nome?"); 
