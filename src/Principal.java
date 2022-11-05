@@ -6,6 +6,8 @@
  * Bibliografia :   Java como programar, Deitel, 10º edição                                                             
  * Capitulo     :   Estudo de caso de GUIs e imagens gráficas
  * Descrição    :   TestDrive para os aplicativos
+ * ___________________________________________________________________________________________________________________
+ * Comentários  :   Ok! projeto pronto para deslanchar
  * %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/ 
 
 
@@ -16,6 +18,7 @@ import javax.swing.JOptionPane;
 
  
 /*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*/
+/**Alterado no VisualCode*/
 public class Principal {
 
     /**Procedimento principal que inicia e termina a aplicação*/
