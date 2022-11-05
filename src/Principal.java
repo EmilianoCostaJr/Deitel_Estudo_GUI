@@ -14,6 +14,7 @@
 import C3_Dialog.BemVindo;
 import C3_Dialog.Insere;
 import C3_Dialog.Soma;
+import C4_DrawPanel.DrawPanelTest;
 import javax.swing.JOptionPane;
 
  
@@ -32,10 +33,12 @@ public class Principal {
         case 31 -> BemVindo.inicio();
         case 32 -> Insere.inicio();
         case 33 -> Soma.inicio();
+        case 40 -> DrawPanelTest.inicio();
+        case 41 -> DrawPanelTest.exer_01();
+        case 42 -> DrawPanelTest.exer_02();
         default -> JOptionPane.showMessageDialog(null, "Houve erro na escolha");
         }
-        
-        choice();
+                choice();
         
     }/*FIM Método drive()*/
 
