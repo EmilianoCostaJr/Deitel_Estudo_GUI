@@ -52,12 +52,12 @@ public class Principal {
             seleciona = 0;
             String msg = String.format("Exception: %s%n", e.getMessage());
             JOptionPane.showMessageDialog(null,msg);
-            JOptionPane.showMessageDialog(null,"Encerrando o app");
         }
         
         if(seleciona != 0)
             drive(seleciona);
         
+        JOptionPane.showMessageDialog(null,"Encerrando o app");/*Alteração feita na WEB*/
     }/*FIM Método choice()*/
 
 }/*:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::Fim da classe Principal*/
