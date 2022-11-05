@@ -38,7 +38,7 @@ public class Principal {
         case 42 -> DrawPanelTest.exer_02();
         default -> JOptionPane.showMessageDialog(null, "Houve erro na escolha");
         }
-                choice();
+        choice();
         
     }/*FIM Método drive()*/
 
