@@ -7,7 +7,8 @@
  * Capitulo     :   Estudo de caso de GUIs e imagens gráficas
  * Descrição    :   TestDrive para os aplicativos
  * ___________________________________________________________________________________________________________________
- * Comentários  :   Ok! projeto pronto para deslanchar
+ * Commit       :   05 de nov. de 2022 >> Ok! projeto pronto para deslanchar
+ *                  07 de nov. de 2022 >> Inclusão do capítulo 5
  * %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/ 
 
 
@@ -36,6 +37,9 @@ public class Principal {
         case 40 -> DrawPanelTest.inicio();
         case 41 -> DrawPanelTest.exer_01();
         case 42 -> DrawPanelTest.exer_02();
+        case 50 -> C5_Shapes.ShapesTest.figura_5_27();
+        case 51 -> C5_Shapes.ShapesTest.exer_5_1();
+        case 52 -> C5_Shapes.ShapesTest.exer_5_2();       
         default -> JOptionPane.showMessageDialog(null, "Houve erro na escolha");
         }
         choice();
